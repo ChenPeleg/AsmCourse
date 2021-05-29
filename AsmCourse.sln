@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CourseLesson1", "CourseLesson1\CourseLesson1.vcxproj", "{1016811D-8F88-4EF8-BFDB-D88BE9CECB3B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JustCppConsole", "..\AssemblyCourse\JustCppConsole\JustCppConsole.vcxproj", "{3E4CEB08-74BB-4991-BA37-B0CEBEF76D00}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JustCppConsole", "JustCppConsole\JustCppConsole.vcxproj", "{3E4CEB08-74BB-4991-BA37-B0CEBEF76D00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
