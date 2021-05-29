@@ -1,4 +1,2 @@
 ﻿  JustCppConsole.cpp
-C:\Users\chenp\Source\Repos\JustCppConsole\JustCppConsole.cpp(34,28): warning C4129: ' ': unrecognized character escape sequence
-C:\Users\chenp\Source\Repos\JustCppConsole\JustCppConsole.cpp(45,26): warning C4129: ' ': unrecognized character escape sequence
-  JustCppConsole.vcxproj -> C:\Users\chenp\Source\Repos\ArrayReverser\Debug\JustCppConsole.exe
+  JustCppConsole.vcxproj -> C:\Users\chenp\Source\Repos\AsmCourse\Debug\JustCppConsole.exe
