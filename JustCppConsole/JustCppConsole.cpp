@@ -8,36 +8,51 @@
  
 using namespace std;
 int const MAX_BUFFERSIZE = 3000;
-std::string createMainString(std::string inputString);
+void prettyPrintResult(char destenation[]);
 char* catString(char  destenation[MAX_BUFFERSIZE], char  string2[]);
 int main()
 {
-    std::cout << "Hello World!\n\n\n";
-    char mainstring [MAX_BUFFERSIZE]= "string number 1";
-    char s2[MAX_BUFFERSIZE] = "string number 1";
-     catString(mainstring, s2) ;
-
-    std::cout << "\n\n\n this Is the Result:\n" << mainstring << "\n\n\n";
- 
-    //createMainString("123");
+    
+    char res[] = "123122341325134531451351";
+     prettyPrintResult(res);
 }
-std::string createMainString(std::string inputString) {
-    char finalString[MAX_BUFFERSIZE] = "******   ";
-    char stringToAdd[5] = "1234";
- 
-    catString(finalString, stringToAdd);
-    return finalString;
+void prettyPrintResult(char result[]) {
+    char mainstring[MAX_BUFFERSIZE] = "";
+    char borderline[] = "       *****************************************************\n";
+    char headerLine[] = "       ***********    Assembly Application    **************\n";
+    char simpleLine[] = "       ***                                               ***\n";
+    char answerLine[] = "       ***                                               ***\n";
+    int offset = 20;
+    for (int i = 0; i < 15; i++) {
+        answerLine[i + offset] = result[i];
+        if (result[i] == '\0') {
+            break;
+        }
+       
+    }
+  //  std::cout << borderline << headerLine;
+    catString(mainstring, borderline);
+    catString(mainstring, headerLine);
+    for (int i = 0; i < 6; i++) {
+        catString(mainstring, simpleLine); 
+        if (i == 3) {
+            catString(mainstring, answerLine);
+        }
+    }
+    catString(mainstring, borderline);
+    catString(mainstring, borderline);
+    std::cout << mainstring;
+    return;
 }
  char* catString (char destenation[MAX_BUFFERSIZE], char string2[]) {
   
     int l = 0;
-    for (int i = 0; i < 100; i++) {
-        char c = destenation[i];
-    
-        if (c == '\0' || l > 0) {
-            destenation[i] = string2[l];
+    for (int i = 0; i < 10000; i++) {
+        char c = destenation[i]; 
+        if (c == '\0' || l > 0) { 
+            destenation[i] = string2[l]; 
             l++;
-            if (string2[l] == '\0' || l == sizeof(string2)){
+            if (string2[l] == '\0'){              
                 break;
             }
         }
