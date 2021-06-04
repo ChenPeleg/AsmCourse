@@ -2,10 +2,11 @@
 //
 
 #include <iostream>
-//#include <string>
 #include <string.h> 
 #include <cstring> 
  
+extern "C" void mainasm();
+
 using namespace std;
 int const MAX_BUFFERSIZE = 3000;
 void prettyPrintResult(char destenation[]);
