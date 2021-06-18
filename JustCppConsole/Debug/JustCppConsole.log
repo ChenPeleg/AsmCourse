@@ -1,3 +1,5 @@
-﻿  JustCppConsole.cpp
-C:\Users\chenp\Source\Repos\AsmCourse\JustCppConsole\JustCppConsole.cpp(24,11): warning C4101: 'numberstring': unreferenced local variable
+﻿  Assembling assemblyArraySum.asm...
+  Assembling assemblyCommand.asm...
+  JustCppConsole.cpp
+C:\Users\chenp\Source\Repos\AsmCourse\JustCppConsole\JustCppConsole.cpp(25,11): warning C4101: 'numberstring': unreferenced local variable
   JustCppConsole.vcxproj -> C:\Users\chenp\Source\Repos\AsmCourse\Debug\JustCppConsole.exe

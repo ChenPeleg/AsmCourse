@@ -141,6 +141,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JustCppConsole.cpp" />
+    <MASM Include="assemblyArraySum.asm">
+      <FileType>Document</FileType>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="assemblyCommand.asm">

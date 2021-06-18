@@ -7,6 +7,7 @@
 #include <cstring> 
  
 extern "C" int mainasm();
+extern "C" int arraySum();
 
 using namespace std;
 int const MAX_BUFFERSIZE = 3000;
@@ -16,11 +17,11 @@ int main()
 {
     
     char res[] = "123122341325134531451351";
-    int asmRet = mainasm();
-   // std::string s = std::to_string(42);
-    //std::string s = std::to_string(asmRet);
-    int number = asmRet;
-    number = 89;
+    int retMainasm = mainasm();
+    int retArraySum = arraySum();
+   
+    int number = retMainasm;
+    number = retArraySum;
     char  numberstring[(((sizeof number) * CHAR_BIT) + 2) / 3 + 2];
     sprintf_s(res, "%d", number);
    // char pchar[ ] = s.c_str();

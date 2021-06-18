@@ -9,7 +9,7 @@ mainasm proc
 		;push ebp
 		;mov ebp, ESP
 		;mov eax, ebp
-		add eax,35
+		mov eax,10001
 		ret
 mainasm endp  
 end  
