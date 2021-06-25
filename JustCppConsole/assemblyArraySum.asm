@@ -10,7 +10,7 @@ arraySum proc
 		mov ecx, LengthOF  intArray ;initilize the loop counter C = Counter
 		mov eax, 0 ; sets the accumeltaiver initilize for zerp
 	LP:
-		add eax, [edi]	
+		add eax, [edi]	 
 		add edi, TYPE intArray
 		loop LP
 		;this is for returning to the cpp
