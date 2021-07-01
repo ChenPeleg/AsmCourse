@@ -26,5 +26,8 @@
     <MASM Include="assemblyArraySum.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="assemblyfirstNonZeoValueOfArray.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

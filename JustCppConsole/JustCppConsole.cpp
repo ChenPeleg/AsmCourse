@@ -6,25 +6,29 @@
 #include <string> 
 #include <cstring> 
  
-extern "C" int mainasm();
-extern "C" int arraySum();
+extern "C" int mainasm(void);
+extern "C" int arraySum(void);
+extern "C" int arrayFirstNonZero(void);
 
 using namespace std;
 int const MAX_BUFFERSIZE = 3000;
-void prettyPrintResult(char destenation[]);
+ void prettyPrintResult(char* result);
 char* catString(char  destenation[MAX_BUFFERSIZE], char  string2[]);
 int main()
 {
     
     char res[] = "123122341325134531451351";
-    int retMainasm = mainasm();
+    int retMainasm =  mainasm();
     int retArraySum = arraySum();
+
+    int retArrayFirstNonZero = arrayFirstNonZero();
    
-    int number = retMainasm;
-    number = retArraySum;
+    int number = 0;
+    /* This Is the result that will show on the screen*/
+    number = retArrayFirstNonZero;
     char  numberstring[(((sizeof number) * CHAR_BIT) + 2) / 3 + 2];
     sprintf_s(res, "%d", number);
-   // char pchar[ ] = s.c_str();
+ 
 
 
      prettyPrintResult(res);

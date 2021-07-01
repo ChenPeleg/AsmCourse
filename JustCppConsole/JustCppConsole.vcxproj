@@ -144,6 +144,7 @@
     <MASM Include="assemblyArraySum.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="assemblyfirstNonZeoValueOfArray.asm" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="assemblyCommand.asm">
