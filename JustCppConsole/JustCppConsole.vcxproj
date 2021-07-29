@@ -141,6 +141,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JustCppConsole.cpp" />
+    <MASM Include="pontersFunc.asm">
+      <FileType>Document</FileType>
+    </MASM>
     <MASM Include="assemblyArraySum.asm">
       <FileType>Document</FileType>
     </MASM>

@@ -1,3 +1,5 @@
-﻿  Assembling assemblyfirstNonZeoValueOfArray.asm...
-assemblyfirstNonZeoValueOfArray.asm(22): error A2022: instruction operands must be the same size
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\assemblyfirstNonZeoValueOfArray.obj" /W3 /errorReport:prompt  /TaassemblyfirstNonZeoValueOfArray.asm" exited with code 1.
+﻿  Assembling pontersFunc.asm...
+pontersFunc.asm(13): error A2088: END directive required at end of file
+pontersFunc.asm(11): error A2006: undefined symbol : F
+pontersFunc.asm(11): error A2006: undefined symbol : A
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\pontersFunc.obj" /W3 /errorReport:prompt  /TapontersFunc.asm" exited with code 1.

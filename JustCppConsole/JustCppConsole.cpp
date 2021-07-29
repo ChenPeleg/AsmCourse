@@ -8,8 +8,8 @@
  
 extern "C" int mainasm(void);
 extern "C" int arraySum(void);
-extern "C" int arrayFirstNonZero(void);
-
+extern "C" int arrayFirstNonZero(void); //pontersFunc
+extern "C" int pontersFunc(void);
 using namespace std;
 int const MAX_BUFFERSIZE = 3000;
  void prettyPrintResult(char* result);
@@ -20,8 +20,9 @@ int main()
     char res[] = "123122341325134531451351";
     int retMainasm =  mainasm();
     int retArraySum = arraySum();
-
     int retArrayFirstNonZero = arrayFirstNonZero();
+    int retpontersFunc = pontersFunc();
+
    
     int number = 0;
     /* This Is the result that will show on the screen*/
