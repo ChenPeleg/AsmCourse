@@ -29,7 +29,7 @@
     <MASM Include="assemblyfirstNonZeoValueOfArray.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="pontersFunc.asm">
+    <MASM Include="asmCallFromC.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

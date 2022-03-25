@@ -10,6 +10,8 @@ extern "C" int mainasm(void);
 extern "C" int arraySum(void);
 extern "C" int arrayFirstNonZero(void); //pontersFunc
 extern "C" int pontersFunc(void);
+extern "C" int asmcallfromc(int a, int b, int c);
+
 using namespace std;
 int const MAX_BUFFERSIZE = 3000;
  void prettyPrintResult(char* result);
@@ -21,7 +23,7 @@ int main()
     int retMainasm =  mainasm();
     int retArraySum = arraySum();
     int retArrayFirstNonZero = arrayFirstNonZero();
-    int retpontersFunc = pontersFunc();
+     int retpontersFunc = asmcallfromc(2,3,4);
 
    
     int number = 0;
