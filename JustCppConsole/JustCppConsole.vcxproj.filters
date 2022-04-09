@@ -34,7 +34,7 @@
     </MASM>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cusheader.h">
+    <ClInclude Include="common.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
