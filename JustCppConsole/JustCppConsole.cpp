@@ -5,7 +5,7 @@
 #include <cstring> 
 #include "common.h"
  
-extern "C" int arrayFirstNonZero(void); //pontersFunc
+extern "C" int asmmain(void); //pontersFunc
   
 using namespace std;
 
@@ -17,7 +17,7 @@ int main()
 {
   
     char res[] = "asdfasdfasdfq234123412341234      00000000   "; 
-    int retArrayFirstNonZero = arrayFirstNonZero();  
+    int retArrayFirstNonZero = asmmain();
     int number = 0; 
 
     /* This Is the result that will show on the screen*/

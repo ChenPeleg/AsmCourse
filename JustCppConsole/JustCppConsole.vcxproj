@@ -144,6 +144,7 @@
     <MASM Include="asmCallFromC.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="asmmain.asm" />
     <MASM Include="assemblyArraySum.asm">
       <FileType>Document</FileType>
     </MASM>

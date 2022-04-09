@@ -2,7 +2,7 @@
 .386
 .model flat,c
 .data
-intArray SWORD 0, 21, 15, 0,4
+intArray SWORD 0, 56, 15, 0,4
 .code
 ;; My Task : first none Zero value of Array
 arrayFirstNonZero proc 

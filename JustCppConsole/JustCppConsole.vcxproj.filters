@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\asm_archive">
+      <UniqueIdentifier>{dd76dd61-1f78-42c5-99b8-f3d5f224e6ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JustCppConsole.cpp">
@@ -20,22 +23,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="assemblyCommand.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
     <MASM Include="assemblyArraySum.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="assemblyfirstNonZeoValueOfArray.asm">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\asm_archive</Filter>
     </MASM>
     <MASM Include="asmCallFromC.asm">
+      <Filter>Source Files\asm_archive</Filter>
+    </MASM>
+    <MASM Include="assemblyCommand.asm">
+      <Filter>Source Files\asm_archive</Filter>
+    </MASM>
+    <MASM Include="assemblyfirstNonZeoValueOfArray.asm">
+      <Filter>Source Files\asm_archive</Filter>
+    </MASM>
+    <MASM Include="asmmain.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
