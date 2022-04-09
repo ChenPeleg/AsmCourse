@@ -3,5 +3,5 @@
   Assembling assemblyfirstNonZeoValueOfArray.asm...
   Assembling assemblyCommand.asm...
   JustCppConsole.cpp
-C:\Projects\AsmCourse\JustCppConsole\JustCppConsole.cpp(32,11): warning C4101: 'numberstring': unreferenced local variable
+C:\Projects\AsmCourse\JustCppConsole\JustCppConsole.cpp(33,11): warning C4101: 'numberstring': unreferenced local variable
   JustCppConsole.vcxproj -> C:\Projects\AsmCourse\Debug\JustCppConsole.exe

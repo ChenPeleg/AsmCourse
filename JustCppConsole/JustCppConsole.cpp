@@ -5,6 +5,7 @@
 #include <string.h> 
 #include <string> 
 #include <cstring> 
+#include "cusheader.h"
  
 extern "C" int mainasm(void);
 extern "C" int arraySum(void);
@@ -18,12 +19,12 @@ int const MAX_BUFFERSIZE = 3000;
 char* catString(char  destenation[MAX_BUFFERSIZE], char  string2[]);
 int main()
 {
-    
+    int sum =  funcFromHeader(10, 20);
     char res[] = "123122341325134531451351";
     int retMainasm =  mainasm();
     int retArraySum = arraySum();
     int retArrayFirstNonZero = arrayFirstNonZero();
-     int retpontersFunc = asmcallfromc(2,3,4);
+    int retpontersFunc = asmcallfromc(2,3,4);
 
    
     int number = 0;
